@@ -1,0 +1,10 @@
+package classe;
+
+public class FuncionarioTeste {
+	
+	public static void main(String[] args) {
+		
+		Funcionario ficha = new Funcionario(José, 1250.50, Cobrador);
+	}
+
+}

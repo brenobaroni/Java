@@ -1,0 +1,21 @@
+package Fundamentos;
+
+public class OperadoresLogicos {
+	
+	
+	public static void main(String[] args) {
+		boolean execTrab01 = false;
+		boolean execTrab02 = true;
+		
+		boolean buyIcecream = execTrab01 || execTrab02;
+		
+		if (buyIcecream == true) {
+			System.out.println("Você comprará sorvete!");
+		} else {
+			System.out.println("Você não Comprará sorvete!");
+		}
+		
+		
+	}
+
+}

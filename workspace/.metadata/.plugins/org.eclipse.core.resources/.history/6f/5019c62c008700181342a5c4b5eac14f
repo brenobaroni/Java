@@ -1,0 +1,20 @@
+package colecoes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lista {
+	
+	public static void main(String[] args) {
+		List<String> aprovados = new ArrayList<>();
+		aprovados.add("João");
+		aprovados.add("Rabanete");
+		aprovados.add("Menuel");
+		aprovados.add("Rabete");
+		
+		
+		System.out.println("Get... ");
+		System.out.println(aprovados.get(1));
+	}
+
+}

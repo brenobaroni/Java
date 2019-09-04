@@ -1,0 +1,15 @@
+package classe;
+
+public class Funcionario {
+	
+	String name;
+	double sal;
+	String func;
+	
+	
+	Funcionario () {
+		
+		
+	}
+
+}

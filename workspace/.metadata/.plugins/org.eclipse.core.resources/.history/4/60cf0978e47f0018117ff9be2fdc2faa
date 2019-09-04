@@ -1,0 +1,15 @@
+package Fundamentos;
+
+public class OperadoresLogicos {
+	
+	
+	public static void main(String[] args) {
+		boolean execTrab01 = false;
+		boolean execTrab02 = true;
+		
+		boolean buyIcecream = execTrab01 || execTrab02;
+		
+		
+	}
+
+}

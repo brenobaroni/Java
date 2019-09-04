@@ -1,0 +1,5 @@
+package cursojava.aula53;
+
+public enum DiaSemana {
+
+}

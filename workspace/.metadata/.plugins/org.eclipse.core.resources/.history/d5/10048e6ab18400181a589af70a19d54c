@@ -1,0 +1,21 @@
+package classe;
+
+public class Funcionario {
+	
+	String name;
+	float sal;
+	String func;
+	
+	
+	Funcionario (String n, float s, String f) {
+		name = n;
+		sal = s;
+		func = f;
+	}
+	
+	String format() {
+		return String.format("Ficha:" + "\nNome: "+ name + "\nSalário: %.2f ", sal + "\nFunção: " + func);
+		
+	}
+
+}
